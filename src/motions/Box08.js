@@ -3,7 +3,7 @@ import './Box01.css'
 import { motion } from 'framer-motion'
 
 const Box08 = () => {
-    const boxVarient={
+    const boxVarient ={
         opacity_ani:{
             opacity : 1,
         },
@@ -17,10 +17,10 @@ const Box08 = () => {
 
     const rotateVarient = {
         rotate_45 : {
-            rotate : 45
-        },
-        rotate_135 : {
-            rotate : 135
+            rotate: 45
+        }, 
+        rotate_135 :{
+            rotate:135
         }
     }
   return (
@@ -29,24 +29,24 @@ const Box08 = () => {
         {/* <motion.div className='box'
             initial={ boxVarient.opacity_init }
             animate={ boxVarient.opacity_ani }
-            transition={ boxVarient.duration }
+            transition={ boxVarient.duration}
         >
-            varient
+            varient 
         </motion.div> */}
 
         <motion.div className='box'
             variants={ boxVarient }
             initial="opacity_init" 
-            whileHover="opacity_ani" 
+            whileHover="opacity_ani"   
         >
-            varient
+            varient 
         </motion.div>
         <motion.div className='box'
             variants={ rotateVarient } 
-            animate= "rotate_45"
+            animate="rotate_45"   
             whileTap="rotate_135"
         >
-            varient
+            varient 
         </motion.div>
       </div>
     </div>

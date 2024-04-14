@@ -7,8 +7,8 @@ const Box01 = () => {
     <motion.div className='box'
         // style={{ opacity: 0 }}
         initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 5, delay: 2 }}
+        animate={{ opacity : 1 }}
+        transition={{ duration: 5, delay: 2}}
     >
       Box01
     </motion.div>

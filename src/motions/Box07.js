@@ -7,7 +7,7 @@ const Box07 = () => {
     <div>
       <div className='outbox'>
         <motion.div className='box'
-            drag
+            drag 
             whileDrag={{ scale : 1.2 }}
             dragConstraints={{
                 right:20,

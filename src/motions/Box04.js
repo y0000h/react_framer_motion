@@ -9,7 +9,7 @@ const Box04 = () => {
         <motion.div className='box'
             initial={{ rotate : 0 }}
             // animate={{ rotate : 360 }}
-            whileHover={{ rotate : 55 }}
+            whileHover={{ rotate : 45 }}
         >
 
         </motion.div>

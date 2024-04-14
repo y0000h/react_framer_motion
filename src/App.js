@@ -1,12 +1,26 @@
 import './App.css';
-import FramerAccordion from './motions/FramerAccordion';
-import FramerTab from './motions/FramerTab';
+import {
+  Header, 
+  Work,
+  Skills,
+  Aboutme
+} from './compnents' 
+import NavIndecator from './compnents/NavIndecator';
+ 
+import SectionTemp from './layouts/SectionTemp';
 
 function App() {
   return (
     <div className="App">
-        {/* <FramerTab /> */}
-        <FramerAccordion />
+        {/* <SectionTemp><Header /></SectionTemp>
+        <SectionTemp><Work /></SectionTemp>
+        <SectionTemp><Skills /></SectionTemp>
+        <SectionTemp><Aboutme /></SectionTemp>  */}
+        <Header />
+        <Work />
+        <Skills />
+        <Aboutme />
+        <NavIndecator />
     </div>
   );
 }

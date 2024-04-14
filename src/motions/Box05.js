@@ -7,10 +7,10 @@ const Box05 = () => {
     <div>
       <div className='outbox'>
         <motion.div className='box'
-            initial={{ rotate : 0 }}
+            initial={{ scale : 1 }}
             // animate={{ rotate : 360 }}
             // whileHover={{ scale : 1.2 }}
-            whileTap={{ scale : 1.2 }}
+            whileTap={{ scale: 1.2 }}
         >
             scale 제스쳐
         </motion.div>

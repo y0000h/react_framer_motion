@@ -1,14 +1,13 @@
 .scroll_trigger_box{
-    width: 200px;
-    height: 200px;
-    border: 1px solid white;
+    width: 200px; 
+    height: 200px; 
     background-color: orange;
 }
+ 
 
 .scroll_trigger{
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-
 }

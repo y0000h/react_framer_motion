@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+.framer_tab{
+    width: 300px;
+    margin: 50px;
+}
+.framer_tab ul{
+    display: flex;
+    gap: 5px;
+}
+.framer_tab li{
+   padding:10px; 
+   border: 1px solid black;
+}
+.framer_tab li.active{
+   background-color: black;
+   color:white;
+}
+
+.framer_contents{
+    position: relative;
+}
+.framer_contents>div{
+    position: absolute;
+    left:0; 
+    top:0;
+}
