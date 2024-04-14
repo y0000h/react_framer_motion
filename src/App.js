@@ -1,13 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
-import Box01 from './motions/Box11';
+import FramerAccordion from './motions/FramerAccordion';
+import FramerTab from './motions/FramerTab';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <Box01 />
-      </header>
+        {/* <FramerTab /> */}
+        <FramerAccordion />
     </div>
   );
 }
