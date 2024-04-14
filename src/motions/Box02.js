@@ -1,5 +1,5 @@
 import React from 'react'
-import '/.Box01.css'
+import './Box01.css'
 import { motion } from 'framer-motion'
 
 const Box02 = () => {
